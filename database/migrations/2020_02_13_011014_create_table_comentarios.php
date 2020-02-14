@@ -29,6 +29,6 @@ class CreateTableComentarios extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('table_comentarios');
+        Schema::dropIfExists('comentarios');
     }
 }
